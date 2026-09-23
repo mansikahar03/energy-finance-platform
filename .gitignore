@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+
+# Generated pipeline output
+output/
+
+# Raw downloads from the EIA API (recreated by running eia_pipeline.py)
+data/raw/
+
+# Local DuckDB database (recreated by running load_database.py)
+database/
+*.duckdb
+*.duckdb.wal
+
+# Personal Claude Code settings
+.claude/
+
+# Secrets, in case a key is ever put in a file by mistake
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Mac system files
+.DS_Store

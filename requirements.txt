@@ -1,0 +1,9 @@
+# pipeline.py, eia_pipeline.py and forecast.py use Python's standard library only.
+
+# Dashboard (dashboard.py)
+streamlit==1.64.0
+altair==6.3.0
+pandas==3.0.6
+
+# Local SQL database (load_database.py, run_query.py)
+duckdb==1.5.5

@@ -1,0 +1,73 @@
+series,units,method,horizon_months,n_forecasts,mae,mape_pct,bias_pct,p90_abs_pct_error,selected_for_forecast
+production,thousand bbl/day,naive_last_value,1,29,157.966,1.171,-0.311,2.961,
+production,thousand bbl/day,naive_last_value,2,28,196.214,1.452,-0.475,3.067,
+production,thousand bbl/day,naive_last_value,3,27,233.222,1.72,-0.699,4.835,
+production,thousand bbl/day,naive_last_value,4,26,233.385,1.718,-0.846,3.272,
+production,thousand bbl/day,naive_last_value,5,25,255.6,1.879,-1.013,3.581,
+production,thousand bbl/day,naive_last_value,6,24,245.333,1.801,-1.077,4.059,
+production,thousand bbl/day,naive_last_value,7,23,263.87,1.93,-1.305,4.656,
+production,thousand bbl/day,naive_last_value,8,22,272.636,1.994,-1.536,5.118,
+production,thousand bbl/day,naive_last_value,9,21,315.19,2.299,-1.868,4.725,
+production,thousand bbl/day,naive_last_value,10,20,321.05,2.342,-2.086,3.917,
+production,thousand bbl/day,naive_last_value,11,19,320.053,2.329,-2.329,4.656,
+production,thousand bbl/day,naive_last_value,12,18,348.611,2.544,-2.544,4.678,
+production,thousand bbl/day,average_last_3_months,1,29,159.218,1.177,-0.433,2.792,
+production,thousand bbl/day,average_last_3_months,2,28,195.048,1.439,-0.619,2.275,
+production,thousand bbl/day,average_last_3_months,3,27,222.667,1.639,-0.807,2.513,
+production,thousand bbl/day,average_last_3_months,4,26,220.833,1.623,-0.914,2.936,
+production,thousand bbl/day,average_last_3_months,5,25,228.48,1.675,-1.055,3.317,
+production,thousand bbl/day,average_last_3_months,6,24,241.875,1.77,-1.233,3.708,
+production,thousand bbl/day,average_last_3_months,7,23,267.913,1.958,-1.5,4.275,
+production,thousand bbl/day,average_last_3_months,8,22,286.924,2.094,-1.743,4.189,
+production,thousand bbl/day,average_last_3_months,9,21,306.635,2.236,-2.065,4.132,
+production,thousand bbl/day,average_last_3_months,10,20,311.783,2.272,-2.26,3.534,
+production,thousand bbl/day,average_last_3_months,11,19,341.316,2.486,-2.473,3.932,
+production,thousand bbl/day,average_last_3_months,12,18,374.519,2.725,-2.649,4.187,
+production,thousand bbl/day,drift_last_12_months,1,29,156.549,1.162,-0.106,2.887,yes
+production,thousand bbl/day,drift_last_12_months,2,28,193.435,1.434,-0.06,2.9,yes
+production,thousand bbl/day,drift_last_12_months,3,27,226.463,1.674,-0.081,4.588,yes
+production,thousand bbl/day,drift_last_12_months,4,26,221.5,1.637,-0.009,3.208,yes
+production,thousand bbl/day,drift_last_12_months,5,25,256.343,1.891,0.019,3.596,yes
+production,thousand bbl/day,drift_last_12_months,6,24,247.729,1.823,0.19,3.901,yes
+production,thousand bbl/day,drift_last_12_months,7,23,294.533,2.163,0.184,4.224,yes
+production,thousand bbl/day,drift_last_12_months,8,22,280.333,2.06,0.143,4.517,yes
+production,thousand bbl/day,drift_last_12_months,9,21,302.179,2.217,0.005,4.312,yes
+production,thousand bbl/day,drift_last_12_months,10,20,269.717,1.983,-0.111,3.742,yes
+production,thousand bbl/day,drift_last_12_months,11,19,255.592,1.874,-0.192,4.195,yes
+production,thousand bbl/day,drift_last_12_months,12,18,251.167,1.849,-0.284,4.742,yes
+price,$/bbl,naive_last_value,1,29,4.539,5.836,-0.088,9.169,yes
+price,$/bbl,naive_last_value,2,28,7.266,9.178,-0.579,18.288,yes
+price,$/bbl,naive_last_value,3,27,8.541,10.611,-0.902,36.562,yes
+price,$/bbl,naive_last_value,4,26,9.773,12.213,-0.918,34.274,yes
+price,$/bbl,naive_last_value,5,25,10.365,12.934,-0.015,33.366,yes
+price,$/bbl,naive_last_value,6,24,10.894,13.713,1.088,31.647,yes
+price,$/bbl,naive_last_value,7,23,11.359,14.52,2.508,29.183,yes
+price,$/bbl,naive_last_value,8,22,11.644,15.087,3.625,28.204,yes
+price,$/bbl,naive_last_value,9,21,12.173,16.077,4.465,28.738,yes
+price,$/bbl,naive_last_value,10,20,13.225,17.656,5.449,31.965,yes
+price,$/bbl,naive_last_value,11,19,14.226,19.051,6.303,33.252,yes
+price,$/bbl,naive_last_value,12,18,15.306,20.574,6.926,36.663,yes
+price,$/bbl,average_last_3_months,1,29,6.325,7.93,-0.701,16.378,
+price,$/bbl,average_last_3_months,2,28,7.665,9.555,-1.145,29.524,
+price,$/bbl,average_last_3_months,3,27,9.007,11.161,-1.03,34.734,
+price,$/bbl,average_last_3_months,4,26,9.889,12.337,-0.27,32.549,
+price,$/bbl,average_last_3_months,5,25,10.561,13.304,0.785,30.798,
+price,$/bbl,average_last_3_months,6,24,11.063,14.123,1.947,29.678,
+price,$/bbl,average_last_3_months,7,23,11.214,14.544,3.314,27.324,
+price,$/bbl,average_last_3_months,8,22,11.798,15.534,4.475,27.508,
+price,$/bbl,average_last_3_months,9,21,12.561,16.715,5.287,29.277,
+price,$/bbl,average_last_3_months,10,20,13.611,18.243,6.163,29.532,
+price,$/bbl,average_last_3_months,11,19,14.546,19.598,6.784,35.556,
+price,$/bbl,average_last_3_months,12,18,14.932,20.261,7.388,32.446,
+price,$/bbl,drift_last_12_months,1,29,4.581,5.874,-0.549,10.984,
+price,$/bbl,drift_last_12_months,2,28,7.638,9.598,-1.706,25.516,
+price,$/bbl,drift_last_12_months,3,27,9.943,12.327,-2.922,38.554,
+price,$/bbl,drift_last_12_months,4,26,11.316,14.074,-4.011,37.882,
+price,$/bbl,drift_last_12_months,5,25,11.892,14.696,-3.916,38.427,
+price,$/bbl,drift_last_12_months,6,24,12.196,15.139,-3.449,38.81,
+price,$/bbl,drift_last_12_months,7,23,12.483,15.57,-2.622,36.567,
+price,$/bbl,drift_last_12_months,8,22,13.824,17.68,-1.963,36.93,
+price,$/bbl,drift_last_12_months,9,21,15.669,20.463,-1.242,35.501,
+price,$/bbl,drift_last_12_months,10,20,17.305,22.657,-0.453,41.683,
+price,$/bbl,drift_last_12_months,11,19,18.512,24.08,0.629,52.345,
+price,$/bbl,drift_last_12_months,12,18,20.083,25.952,1.551,56.604,

@@ -1,0 +1,7 @@
+# Keep the dashboard local and private.
+[server]
+address = "localhost"   # only reachable from this computer
+port = 8501
+
+[browser]
+gatherUsageStats = false  # don't send usage statistics to Streamlit
