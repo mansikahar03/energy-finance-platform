@@ -34,7 +34,7 @@ Each step stops with a clear message if its input is missing or fails validation
 
 These use EIA data through **June 2026**, downloaded on 23 Sep 2026.
 
-| | |
+| Measure | Result |
 |---|---|
 | **Latest month (Jun 2026)** | U.S. production 13,792 thousand barrels/day · WTI $84.81/bbl · illustrative production value $35.1 bn |
 | **Production growth** | Production grew 2.6% in 2024 and 2.7% in 2025 |
